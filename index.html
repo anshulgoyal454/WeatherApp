@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css"> 
+</head>
+<body style="background-image: url('image.jpg');background-repeat: no-repeat;background-size:cover">
+    <div style="text-align: center;margin-top: 10%;">
+    <div style="display: inline-block;align-content: center; background-color: rgba(245, 252, 247, 0.719);width: fit-content;padding: 3mm;padding-bottom: 10mm;margin: 10px;text-align: center;" class="rounded-lg">
+    <h1>Weather Companion</h1><br>
+    <h6 style="float: left;width: 100%;">Search your City</h6>
+    <input type="text" class="form rounded-pill" placeholder="Location" style="text-align: center;float: left;" id="location">
+    <br>
+    <button type="button" onclick="searchWeather()" class="btn btn-primary rounded-pill">Get Weather</button>
+    <br>
+    <p id="cityCountry" style="width: 100%;float: left;">City: </p>
+    <p id="forcast" style="width: 100%;float: left;">Today's forcast</p>
+    <p id="temperature" style="width: 100%;float: left;">Temp: </p>
+    <p id="minTemp" style="width: 40%;float: left;">Min: </p>
+    <p id="maxTemp" style="width: 50%;float: left;">Max: </p>
+</div>
+
+</div>
+
+</body>
+<script src="bootstrap.js"></script>
+<script src="searchScript.js"></script>
+</html>
